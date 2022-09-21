@@ -3,7 +3,7 @@ import azure.cognitiveservices.speech as speechsdk
 from moviepy.editor import *
 
 # speech_config = speechsdk.SpeechConfig(subscription="da9bf9d5-e8f2-4606-a53d-92cdc0c39248", region="eastasia")
-speech_config = speechsdk.SpeechConfig(subscription="2d2dedae6f974f5aa85eac641a0ce74d1", region="eastasia")
+speech_config = speechsdk.SpeechConfig(subscription="2d2dedae6f974f5aa85eac641a0ce74d", region="eastasia")
 
 def extract_audio(videoPath, audioPath):
     video = VideoFileClip(videoPath)

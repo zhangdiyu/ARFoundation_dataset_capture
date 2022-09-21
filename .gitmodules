@@ -1,0 +1,6 @@
+[submodule "Record2TTS/FaceFormer"]
+	path = Record2TTS/FaceFormer
+	url = https://github.com/zhangdiyu/FaceFormer.git
+[submodule "FaceFormer"]
+	path = FaceFormer
+	url = https://github.com/zhangdiyu/FaceFormer.git
